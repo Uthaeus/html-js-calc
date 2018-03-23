@@ -15,12 +15,17 @@ body {
   background-color: blue;
   padding: 10px;
   width: 40%;
-  font-size: 3em;
-  font-weight: 800;
   border-radius: 5px;
 }
 
-.calculation {
+#calculation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: top;
+  font-size: 3rem;
+  word-break: break-all;
+  text-align: right;
+  padding-right: .8rem;
   grid-column: 1/5;
   grid-row: 1;
   background-color: black;
@@ -28,7 +33,13 @@ body {
   color: white;
 }
 
-.answer {
+#answer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 3rem;
+  text-align: right;
+  padding-right: .8rem;
   grid-column: 1/5;
   grid-row: 2;
   background-color: black;
@@ -84,7 +95,7 @@ body {
   background-color: red;
 }
 
-.divide {
+#divide {
   grid-column: 4;
   grid-row: 3;
   background-color: grey;
@@ -96,11 +107,11 @@ body {
   border-radius: 2px;
 }
 
-.divide:hover {
+#divide:hover {
   background-color: gold;
 }
 
-.seven {
+#seven {
   grid-column: 1;
   grid-row: 4;
   background-color: grey;
@@ -112,11 +123,11 @@ body {
   border-radius: 2px;
 }
 
-.seven:hover {
+#seven:hover {
   background-color: silver;
 }
 
-.eight {
+#eight {
   grid-column: 2;
   grid-row: 4;
   background-color: grey;
@@ -128,11 +139,11 @@ body {
   border-radius: 2px;
 }
 
-.eight:hover {
+#eight:hover {
   background-color: silver;
 }
 
-.nine {
+#nine {
   grid-column: 3;
   grid-row: 4;
   background-color: grey;
@@ -144,11 +155,11 @@ body {
   border-radius: 2px;
 }
 
-.nine:hover {
+#nine:hover {
   background-color: silver;
 }
 
-.multiply {
+#multiply {
   grid-column: 4;
   grid-row: 4;
   background-color: grey;
@@ -160,11 +171,11 @@ body {
   border-radius: 2px;
 }
 
-.multiply:hover {
+#multiply:hover {
   background-color: gold;
 }
 
-.four {
+#four {
   grid-column: 1;
   grid-row: 5;
   background-color: grey;
@@ -176,11 +187,11 @@ body {
   border-radius: 2px;
 }
 
-.four:hover {
+#four:hover {
   background-color: silver;
 }
 
-.five {
+#five {
   grid-column: 2;
   grid-row: 5;
   background-color: grey;
@@ -192,11 +203,11 @@ body {
   border-radius: 2px;
 }
 
-.five:hover {
+#five:hover {
   background-color: silver;
 }
 
-.six {
+#six {
   grid-column: 3;
   grid-row: 5;
   background-color: grey;
@@ -208,11 +219,11 @@ body {
   border-radius: 2px;
 }
 
-.six:hover {
+#six:hover {
   background-color: silver;
 }
 
-.minus {
+#minus {
   grid-column: 4;
   grid-row: 5;
   background-color: grey;
@@ -224,11 +235,11 @@ body {
   border-radius: 2px;
 }
 
-.minus:hover {
+#minus:hover {
   background-color: gold;
 }
 
-.one {
+#one {
   grid-column: 1;
   grid-row: 6;
   background-color: grey;
@@ -240,11 +251,11 @@ body {
   border-radius: 2px;
 }
 
-.one:hover {
+#one:hover {
   background-color: silver;
 }
 
-.two {
+#two {
   grid-column: 2;
   grid-row: 6;
   background-color: grey;
@@ -256,11 +267,11 @@ body {
   border-radius: 2px;
 }
 
-.two:hover {
+#two:hover {
   background-color: silver;
 }
 
-.three {
+#three {
   grid-column: 3;
   grid-row: 6;
   background-color: grey;
@@ -272,11 +283,11 @@ body {
   border-radius: 2px;
 }
 
-.three:hover {
+#three:hover {
   background-color: silver;
 }
 
-.add {
+#add {
   grid-column: 4;
   grid-row: 6;
   background-color: grey;
@@ -288,7 +299,7 @@ body {
   border-radius: 2px;
 }
 
-.add:hover {
+#add:hover {
   background-color: gold;
 }
 
@@ -299,7 +310,7 @@ body {
   border-radius: 2px;
 }
 
-.zero {
+#zero {
   grid-column: 2;
   grid-row: 7;
   background-color: grey;
@@ -311,7 +322,7 @@ body {
   border-radius: 2px;
 }
 
-.zero:hover {
+#zero:hover {
   background-color: silver;
 }
 

@@ -19,8 +19,8 @@
 // let equals = document.querySelector('.equals');
 
 const buttons = document.querySelectorAll('button');
-const calculation = document.querySelector('.calculation');
-const answer = document.querySelector('.answer');
+const calculation = document.querySelector('#calculation');
+const answer = document.querySelector('#answer');
 
 let input = '',
     lastInput = '',
@@ -126,18 +126,18 @@ function clearAll() {
   displayData = 0;
   ans = 0;
   calculation.textContent = displayData;
-  answer = textContent = ans;
+  answer.textContent = ans;
 }
 
-function toggleMathJS() {
-  const switchText = document.querySelector('#switch > span');
-  if (mathJS) {
-    switchText.textContent = 'Pure JS';
-  } else {
-    mathJS = true;
-    switchText.textContent = 'Math.js';
-  }
-}
+// function toggleMathJS() {
+//   const switchText = document.querySelector('#switch > span');
+//   if (mathJS) {
+//     switchText.textContent = 'Pure JS';
+//   } else {
+//     mathJS = true;
+//     switchText.textContent = 'Math.js';
+//   }
+// }
 
 function compute(str) {
   let current = '',
@@ -183,9 +183,9 @@ function operate(equation) {
       }
     }
 
-    mathJS ? ans = math.format(result[0], { presicion: 14 }) : ans = result[0];
-    equation = result;
-    result = [];
+    // mathJS ? ans = math.format(result[0], { precision: 14 }) : ans = result[0];
+    // equation = result;
+    // result = [];
   }
 
   if (equation.length > 1) {
