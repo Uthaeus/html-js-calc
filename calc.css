@@ -25,6 +25,7 @@ body {
   grid-row: 1;
   background-color: black;
   border-radius: 2px;
+  color: white;
 }
 
 .answer {
@@ -32,9 +33,10 @@ body {
   grid-row: 2;
   background-color: black;
   border-radius: 2px;
+  color: white;
 }
 
-.back {
+#back {
   grid-column: 1;
   grid-row: 3;
   background-color: grey;
@@ -46,11 +48,11 @@ body {
   border-radius: 2px;
 }
 
-.back:hover {
+#back:hover {
   background-color: red;
 }
 
-.ce {
+#ce {
   grid-column: 2;
   grid-row: 3;
   background-color: grey;
@@ -62,11 +64,11 @@ body {
   border-radius: 2px;
 }
 
-.ce:hover {
+#ce:hover {
   background-color: red;
 }
 
-.c {
+#c {
   grid-column: 3;
   grid-row: 3;
   background-color: grey;
@@ -78,7 +80,7 @@ body {
   border-radius: 2px;
 }
 
-.c:hover {
+#c:hover {
   background-color: red;
 }
 
@@ -313,7 +315,7 @@ body {
   background-color: silver;
 }
 
-.dot {
+#dot {
   grid-column: 3;
   grid-row: 7;
   background-color: grey;
@@ -325,11 +327,11 @@ body {
   border-radius: 2px;
 }
 
-.dot:hover {
+#dot:hover {
   background-color: gold;
 }
 
-.equals {
+#equals {
   grid-column: 4;
   grid-row: 7;
   background-color: grey;
@@ -341,6 +343,6 @@ body {
   border-radius: 2px;
 }
 
-.equals:hover {
+#equals:hover {
   background-color: orange;
 }
